@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0310254E1F0D34D300DBD5BC /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310254D1F0D34D300DBD5BC /* CircleView.swift */; };
+		031025501F0D35EB00DBD5BC /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310254F1F0D35EB00DBD5BC /* LevelView.swift */; };
+		031025521F0D3E3F00DBD5BC /* ModulationWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031025511F0D3E3F00DBD5BC /* ModulationWheelViewController.swift */; };
+		03849FEE1F1520B7008B9927 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 03849FED1F1520B7008B9927 /* Settings.bundle */; };
+		038758021F157B52000A271A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038757FE1F157AA4000A271A /* LaunchScreen.storyboard */; };
+		038758031F157B52000A271A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038758001F157AA4000A271A /* Main.storyboard */; };
+		038758041F157B8A000A271A /* general_midi-2.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 038757F21F1579E6000A271A /* general_midi-2.sf2 */; };
+		038758051F157BA6000A271A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038757EF1F1579E6000A271A /* Assets.xcassets */; };
+		03B63B281F0FE9AE009B2ADB /* PitchBendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B63B271F0FE9AE009B2ADB /* PitchBendViewController.swift */; };
+		03B63B2E1F0FEA5A009B2ADB /* SustainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B63B2B1F0FEA50009B2ADB /* SustainViewController.swift */; };
+		03B63B2F1F0FEA5A009B2ADB /* StereoPanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B63B2C1F0FEA50009B2ADB /* StereoPanViewController.swift */; };
+		03B63B301F0FEA5A009B2ADB /* MasterGainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B63B2D1F0FEA50009B2ADB /* MasterGainViewController.swift */; };
+		03B63B311F0FEA5A009B2ADB /* GlobalTuningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B63B291F0FEA50009B2ADB /* GlobalTuningViewController.swift */; };
+		03B63B321F0FEA5A009B2ADB /* ResetAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B63B2A1F0FEA50009B2ADB /* ResetAllViewController.swift */; };
+		03DFB0821F0BE73A001C37E5 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFB0811F0BE73A001C37E5 /* SummaryViewController.swift */; };
+		03EEA59C1EFAC8370021D1A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EEA59B1EFAC8370021D1A2 /* AppDelegate.swift */; };
+		03EEA59E1EFAC8370021D1A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EEA59D1EFAC8370021D1A2 /* ViewController.swift */; };
+		03EEA5B51EFB2FAA0021D1A2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03EEA5B41EFB2FAA0021D1A2 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0310254D1F0D34D300DBD5BC /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		0310254F1F0D35EB00DBD5BC /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		031025511F0D3E3F00DBD5BC /* ModulationWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulationWheelViewController.swift; sourceTree = "<group>"; };
+		03849FED1F1520B7008B9927 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		038757EF1F1579E6000A271A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		038757F21F1579E6000A271A /* general_midi-2.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "general_midi-2.sf2"; sourceTree = "<group>"; };
+		038757F31F1579E6000A271A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038757F41F1579E6000A271A /* MidiGestures.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MidiGestures.entitlements; sourceTree = "<group>"; };
+		038757FF1F157AA4000A271A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		038758011F157AA4000A271A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03B63B271F0FE9AE009B2ADB /* PitchBendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchBendViewController.swift; sourceTree = "<group>"; };
+		03B63B291F0FEA50009B2ADB /* GlobalTuningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTuningViewController.swift; sourceTree = "<group>"; };
+		03B63B2A1F0FEA50009B2ADB /* ResetAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetAllViewController.swift; sourceTree = "<group>"; };
+		03B63B2B1F0FEA50009B2ADB /* SustainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainViewController.swift; sourceTree = "<group>"; };
+		03B63B2C1F0FEA50009B2ADB /* StereoPanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereoPanViewController.swift; sourceTree = "<group>"; };
+		03B63B2D1F0FEA50009B2ADB /* MasterGainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterGainViewController.swift; sourceTree = "<group>"; };
+		03DFB0811F0BE73A001C37E5 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		03EEA5981EFAC8370021D1A2 /* MidiGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidiGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EEA59B1EFAC8370021D1A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03EEA59D1EFAC8370021D1A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03EEA5B41EFB2FAA0021D1A2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EEA5951EFAC8370021D1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EEA5B51EFB2FAA0021D1A2 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038757F91F157A5D000A271A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				038757EF1F1579E6000A271A /* Assets.xcassets */,
+				038757F21F1579E6000A271A /* general_midi-2.sf2 */,
+				038757F31F1579E6000A271A /* Info.plist */,
+				038757F41F1579E6000A271A /* MidiGestures.entitlements */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		03EEA58F1EFAC8370021D1A2 = {
+			isa = PBXGroup;
+			children = (
+				03EEA59A1EFAC8370021D1A2 /* MidiGestures */,
+				03EEA5991EFAC8370021D1A2 /* Products */,
+				03EEA5B31EFB2FAA0021D1A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03EEA5991EFAC8370021D1A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EEA5981EFAC8370021D1A2 /* MidiGestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EEA59A1EFAC8370021D1A2 /* MidiGestures */ = {
+			isa = PBXGroup;
+			children = (
+				038757F91F157A5D000A271A /* Support Files */,
+				03EEA59B1EFAC8370021D1A2 /* AppDelegate.swift */,
+				03EEA59D1EFAC8370021D1A2 /* ViewController.swift */,
+				0310254D1F0D34D300DBD5BC /* CircleView.swift */,
+				0310254F1F0D35EB00DBD5BC /* LevelView.swift */,
+				03DFB0811F0BE73A001C37E5 /* SummaryViewController.swift */,
+				031025511F0D3E3F00DBD5BC /* ModulationWheelViewController.swift */,
+				03B63B2B1F0FEA50009B2ADB /* SustainViewController.swift */,
+				03B63B2D1F0FEA50009B2ADB /* MasterGainViewController.swift */,
+				03B63B2C1F0FEA50009B2ADB /* StereoPanViewController.swift */,
+				03B63B291F0FEA50009B2ADB /* GlobalTuningViewController.swift */,
+				03B63B2A1F0FEA50009B2ADB /* ResetAllViewController.swift */,
+				03B63B271F0FE9AE009B2ADB /* PitchBendViewController.swift */,
+				038757FE1F157AA4000A271A /* LaunchScreen.storyboard */,
+				038758001F157AA4000A271A /* Main.storyboard */,
+				03849FED1F1520B7008B9927 /* Settings.bundle */,
+			);
+			path = MidiGestures;
+			sourceTree = "<group>";
+		};
+		03EEA5B31EFB2FAA0021D1A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03EEA5B41EFB2FAA0021D1A2 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EEA5971EFAC8370021D1A2 /* MidiGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EEA5AA1EFAC8370021D1A2 /* Build configuration list for PBXNativeTarget "MidiGestures" */;
+			buildPhases = (
+				03EEA5941EFAC8370021D1A2 /* Sources */,
+				03EEA5951EFAC8370021D1A2 /* Frameworks */,
+				03EEA5961EFAC8370021D1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MidiGestures;
+			productName = MidiGestures;
+			productReference = 03EEA5981EFAC8370021D1A2 /* MidiGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EEA5901EFAC8370021D1A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Diego Lavalle";
+				TargetAttributes = {
+					03EEA5971EFAC8370021D1A2 = {
+						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 03EEA5931EFAC8370021D1A2 /* Build configuration list for PBXProject "MidiGestures" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03EEA58F1EFAC8370021D1A2;
+			productRefGroup = 03EEA5991EFAC8370021D1A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EEA5971EFAC8370021D1A2 /* MidiGestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03EEA5961EFAC8370021D1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038758031F157B52000A271A /* Main.storyboard in Resources */,
+				03849FEE1F1520B7008B9927 /* Settings.bundle in Resources */,
+				038758041F157B8A000A271A /* general_midi-2.sf2 in Resources */,
+				038758021F157B52000A271A /* LaunchScreen.storyboard in Resources */,
+				038758051F157BA6000A271A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EEA5941EFAC8370021D1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B63B281F0FE9AE009B2ADB /* PitchBendViewController.swift in Sources */,
+				031025521F0D3E3F00DBD5BC /* ModulationWheelViewController.swift in Sources */,
+				03EEA59E1EFAC8370021D1A2 /* ViewController.swift in Sources */,
+				0310254E1F0D34D300DBD5BC /* CircleView.swift in Sources */,
+				03B63B2E1F0FEA5A009B2ADB /* SustainViewController.swift in Sources */,
+				03B63B301F0FEA5A009B2ADB /* MasterGainViewController.swift in Sources */,
+				03B63B321F0FEA5A009B2ADB /* ResetAllViewController.swift in Sources */,
+				03B63B2F1F0FEA5A009B2ADB /* StereoPanViewController.swift in Sources */,
+				03B63B311F0FEA5A009B2ADB /* GlobalTuningViewController.swift in Sources */,
+				03EEA59C1EFAC8370021D1A2 /* AppDelegate.swift in Sources */,
+				03DFB0821F0BE73A001C37E5 /* SummaryViewController.swift in Sources */,
+				031025501F0D35EB00DBD5BC /* LevelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		038757FE1F157AA4000A271A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038757FF1F157AA4000A271A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		038758001F157AA4000A271A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038758011F157AA4000A271A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03EEA5A81EFAC8370021D1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03EEA5A91EFAC8370021D1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03EEA5AB1EFAC8370021D1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MidiGestures/MidiGestures.entitlements;
+				DEVELOPMENT_TEAM = 92XVGR6M56;
+				INFOPLIST_FILE = MidiGestures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegolavalle.MidiGestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03EEA5AC1EFAC8370021D1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MidiGestures/MidiGestures.entitlements;
+				DEVELOPMENT_TEAM = 92XVGR6M56;
+				INFOPLIST_FILE = MidiGestures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diegolavalle.MidiGestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EEA5931EFAC8370021D1A2 /* Build configuration list for PBXProject "MidiGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EEA5A81EFAC8370021D1A2 /* Debug */,
+				03EEA5A91EFAC8370021D1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EEA5AA1EFAC8370021D1A2 /* Build configuration list for PBXNativeTarget "MidiGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EEA5AB1EFAC8370021D1A2 /* Debug */,
+				03EEA5AC1EFAC8370021D1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03EEA5901EFAC8370021D1A2 /* Project object */;
+}

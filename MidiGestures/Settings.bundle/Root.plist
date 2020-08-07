@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>About</string>
+			<key>FooterText</key>
+			<string>© 2017 Diego Lavalle</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Version</string>
+			<key>Key</key>
+			<string>version_preference</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>File</key>
+			<string>Acknowledgements</string>
+			<key>Title</key>
+			<string>Acknowledgements</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Initial instrument</string>
+			<key>FooterText</key>
+			<string>General MIDI program to be selected at launch</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Instrument</string>
+			<key>Key</key>
+			<string>initial_program</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+			<key>Titles</key>
+			<array>
+				<string>Acoustic Grand Piano</string>
+				<string>Bright Acoustic Piano</string>
+				<string>Electric Grand Piano</string>
+				<string>Honky-tonk Piano</string>
+				<string>Electric Piano 1</string>
+				<string>Electric Piano 2</string>
+				<string>Harpsichord</string>
+				<string>Clavi</string>
+				<string>Celesta</string>
+				<string>Glockenspiel</string>
+				<string>Music Box</string>
+				<string>Vibraphone</string>
+				<string>Marimba</string>
+				<string>Xylophone</string>
+				<string>Tubular Bells</string>
+				<string>Dulcimer</string>
+				<string>Drawbar Organ</string>
+				<string>Percussive Organ</string>
+				<string>Rock Organ</string>
+				<string>Church Organ</string>
+				<string>Reed Organ</string>
+				<string>Accordion</string>
+				<string>Harmonica</string>
+				<string>Tango Accordion</string>
+				<string>Acoustic Guitar (nylon)</string>
+				<string>Acoustic Guitar (steel)</string>
+				<string>Electric Guitar (jazz)</string>
+				<string>Electric Guitar (clean)</string>
+				<string>Electric Guitar (muted)</string>
+				<string>Overdriven Guitar</string>
+				<string>Distortion Guitar</string>
+				<string>Guitar harmonics</string>
+				<string>Acoustic Bass</string>
+				<string>Electric Bass (finger)</string>
+				<string>Electric Bass (pick)</string>
+				<string>Fretless Bass</string>
+				<string>Slap Bass 1</string>
+				<string>Slap Bass 2</string>
+				<string>Synth Bass 1</string>
+				<string>Synth Bass 2</string>
+				<string>Violin</string>
+				<string>Viola</string>
+				<string>Cello</string>
+				<string>Contrabass</string>
+				<string>Tremolo Strings</string>
+				<string>Pizzicato Strings</string>
+				<string>Orchestral Harp</string>
+				<string>Timpani</string>
+				<string>String Ensemble 1</string>
+				<string>String Ensemble 2</string>
+				<string>SynthStrings 1</string>
+				<string>SynthStrings 2</string>
+				<string>Choir Aahs</string>
+				<string>Voice Oohs</string>
+				<string>Synth Voice</string>
+				<string>Orchestra Hit</string>
+				<string>Trumpet</string>
+				<string>Trombone</string>
+				<string>Tuba</string>
+				<string>Muted Trumpet</string>
+				<string>French Horn</string>
+				<string>Brass Section</string>
+				<string>SynthBrass 1</string>
+				<string>SynthBrass 2</string>
+				<string>Soprano Sax</string>
+				<string>Alto Sax</string>
+				<string>Tenor Sax</string>
+				<string>Baritone Sax</string>
+				<string>Oboe</string>
+				<string>English Horn</string>
+				<string>Bassoon</string>
+				<string>Clarinet</string>
+				<string>Piccolo</string>
+				<string>Flute</string>
+				<string>Recorder</string>
+				<string>Pan Flute</string>
+				<string>Blown Bottle</string>
+				<string>Shakuhachi</string>
+				<string>Whistle</string>
+				<string>Ocarina</string>
+				<string>Lead 1 (square)</string>
+				<string>Lead 2 (sawtooth)</string>
+				<string>Lead 3 (calliope)</string>
+				<string>Lead 4 (chiff)</string>
+				<string>Lead 5 (charang)</string>
+				<string>Lead 6 (voice)</string>
+				<string>Lead 7 (fifths)</string>
+				<string>Lead 8 (bass + lead)</string>
+				<string>Pad 1 (new age)</string>
+				<string>Pad 2 (warm)</string>
+				<string>Pad 3 (polysynth)</string>
+				<string>Pad 4 (choir)</string>
+				<string>Pad 5 (bowed)</string>
+				<string>Pad 6 (metallic)</string>
+				<string>Pad 7 (halo)</string>
+				<string>Pad 8 (sweep)</string>
+				<string>FX 1 (rain)</string>
+				<string>FX 2 (soundtrack)</string>
+				<string>FX 3 (crystal)</string>
+				<string>FX 4 (atmosphere)</string>
+				<string>FX 5 (brightness)</string>
+				<string>FX 6 (goblins)</string>
+				<string>FX 7 (echoes)</string>
+				<string>FX 8 (sci-fi)</string>
+				<string>Sitar</string>
+				<string>Banjo</string>
+				<string>Shamisen</string>
+				<string>Koto</string>
+				<string>Kalimba</string>
+				<string>Bag pipe</string>
+				<string>Fiddle</string>
+				<string>Shanai</string>
+				<string>Tinkle Bell</string>
+				<string>Agogo</string>
+				<string>Steel Drums</string>
+				<string>Woodblock</string>
+				<string>Taiko Drum</string>
+				<string>Melodic Tom</string>
+				<string>Synth Drum</string>
+				<string>Reverse Cymbal</string>
+				<string>Guitar Fret Noise</string>
+				<string>Breath Noise</string>
+				<string>Seashore</string>
+				<string>Bird Tweet</string>
+				<string>Telephone Ring</string>
+				<string>Helicopter</string>
+				<string>Applause</string>
+				<string>Gunshot</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+				<string>8</string>
+				<string>9</string>
+				<string>10</string>
+				<string>11</string>
+				<string>12</string>
+				<string>13</string>
+				<string>14</string>
+				<string>15</string>
+				<string>16</string>
+				<string>17</string>
+				<string>18</string>
+				<string>19</string>
+				<string>20</string>
+				<string>21</string>
+				<string>22</string>
+				<string>23</string>
+				<string>24</string>
+				<string>25</string>
+				<string>26</string>
+				<string>27</string>
+				<string>28</string>
+				<string>29</string>
+				<string>30</string>
+				<string>31</string>
+				<string>32</string>
+				<string>33</string>
+				<string>34</string>
+				<string>35</string>
+				<string>36</string>
+				<string>37</string>
+				<string>38</string>
+				<string>39</string>
+				<string>40</string>
+				<string>41</string>
+				<string>42</string>
+				<string>43</string>
+				<string>44</string>
+				<string>45</string>
+				<string>46</string>
+				<string>47</string>
+				<string>48</string>
+				<string>49</string>
+				<string>50</string>
+				<string>51</string>
+				<string>52</string>
+				<string>53</string>
+				<string>54</string>
+				<string>55</string>
+				<string>56</string>
+				<string>57</string>
+				<string>58</string>
+				<string>59</string>
+				<string>60</string>
+				<string>61</string>
+				<string>62</string>
+				<string>63</string>
+				<string>64</string>
+				<string>65</string>
+				<string>66</string>
+				<string>67</string>
+				<string>68</string>
+				<string>69</string>
+				<string>70</string>
+				<string>71</string>
+				<string>72</string>
+				<string>73</string>
+				<string>74</string>
+				<string>75</string>
+				<string>76</string>
+				<string>77</string>
+				<string>78</string>
+				<string>79</string>
+				<string>80</string>
+				<string>81</string>
+				<string>82</string>
+				<string>83</string>
+				<string>84</string>
+				<string>85</string>
+				<string>86</string>
+				<string>87</string>
+				<string>88</string>
+				<string>89</string>
+				<string>90</string>
+				<string>91</string>
+				<string>92</string>
+				<string>93</string>
+				<string>94</string>
+				<string>95</string>
+				<string>96</string>
+				<string>97</string>
+				<string>98</string>
+				<string>99</string>
+				<string>100</string>
+				<string>101</string>
+				<string>102</string>
+				<string>103</string>
+				<string>104</string>
+				<string>105</string>
+				<string>106</string>
+				<string>107</string>
+				<string>108</string>
+				<string>109</string>
+				<string>110</string>
+				<string>111</string>
+				<string>112</string>
+				<string>113</string>
+				<string>114</string>
+				<string>115</string>
+				<string>116</string>
+				<string>117</string>
+				<string>118</string>
+				<string>119</string>
+				<string>120</string>
+				<string>121</string>
+				<string>122</string>
+				<string>123</string>
+				<string>124</string>
+				<string>125</string>
+				<string>126</string>
+				<string>127</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>General</string>
+			<key>FooterText</key>
+			<string>New settings will take effect upon next launch</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Prevent sleep mode</string>
+			<key>Key</key>
+			<string>prevent_sleep</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>
